@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="belajar.mobileprogramming.zefta.uwalq.latihanpertama.MainActivity"
+    android:padding="12dp"
+    >
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Masukkan Nama Anda"
+        android:layout_marginTop="30dp"
+         />
+
+    <EditText
+        android:layout_below="@+id/nama"
+        android:hint="Masukkan Alamat Email"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="21dp" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/email"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:text="Submit"
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+</RelativeLayout>
